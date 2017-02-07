@@ -20,18 +20,34 @@
 <body>
     
     <div class="container" role="main">
+
         <div class="row">
+
             <div class="col-md-12 text-center">
                 <a class="center-tag btn btn-primary btn-lg" href="#search">Search Wiki</a>
             </div>
             <div id="search">
                 <button type="button" class="close">×</button>
                 <form>
-                    <input type="search" value="" placeholder="Type keyword(s) here" />
-                    <button type="submit" class="btn btn-primary btn-lg">Search</button>
+                    <input id="in-search" type="search" value="" placeholder="Type keyword(s) here" />
+                    <button id="btn-search" type="submit" class="btn btn-primary btn-lg">Search</button>
                 </form>
             </div>
+
         </div>
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div id="content" class="list-group">
+                    
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
