@@ -21,11 +21,15 @@
     
     <div class="container" role="main">
         <div class="row">
-            <div class="col-md-12">
-            <form id="content">
-                <input type="text" name="input" class="input">
-                <button type="reset" class="search"></button>
-            </form>
+            <div class="col-md-12 text-center">
+                <a class="center-tag btn btn-primary btn-lg" href="#search">Search Wiki</a>
+            </div>
+            <div id="search">
+                <button type="button" class="close">×</button>
+                <form>
+                    <input type="search" value="" placeholder="Type keyword(s) here" />
+                    <button type="submit" class="btn btn-primary btn-lg">Search</button>
+                </form>
             </div>
         </div>
     </div>
